@@ -1,0 +1,36 @@
+{
+    "name": {
+        "id": 1006900000,
+        "internal": "Home",
+        "external": "Backend Home"
+    },
+    "category": "General",
+    "version": "1.0.0",
+    "requirements": {
+        "phpOMS": "1.0.0",
+        "phpOMS-db": "1.0.0"
+    },
+    "creator": {
+        "name": "Orange Management",
+        "website": "www.spl1nes.com"
+    },
+    "description": "The backend home module.",
+    "directory": "Home",
+    "dependencies": {
+        "Admin": "1.0.0"
+    },
+    "providing": {
+        "Navigation": "*"
+    },
+    "load": [
+        {
+            "pid": [
+                "/backend"
+            ],
+            "type": 5,
+            "from": "Home",
+            "for": "Navigation",
+            "file": "Navigation"
+        }
+    ]
+}
