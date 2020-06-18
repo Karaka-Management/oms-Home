@@ -22,7 +22,7 @@
         "name": "Logout",
         "uri": "{/prefix}api/logout",
         "target": "self",
-        "action": "[{\"key\": 1, \"listener\": \"click\", \"action\": [{\"key\": 1, \"type\": \"event.prevent\"}, {\"key\": 2, \"type\": \"message.request\", \"uri\": \"/api/logout\", \"method\": \"POST\", \"request_type\": \"raw\"}, {\"key\": 3, \"type\": \"dom.reload\"}]}]",
+        "action": "[{\"key\": 1, \"listener\": \"click\", \"action\": [{\"key\": 1, \"type\": \"event.prevent\"}, {\"key\": 2, \"type\": \"message.request\", \"uri\": \"api/logout\", \"method\": \"POST\", \"request_type\": \"raw\"}, {\"key\": 3, \"type\": \"dom.reload\"}]}]",
         "icon": "fa fa-power-off",
         "order": 999,
         "from": "Home",
