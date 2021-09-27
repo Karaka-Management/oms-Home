@@ -17,39 +17,4 @@ use phpOMS\Account\PermissionType;
 use phpOMS\Router\RouteVerb;
 
 return [
-	'^.*/legal/privacy.*$' => [
-        [
-            'dest'       => '\Modules\Home\Controller\BackendController:viewLegalDocuments',
-            'verb'       => RouteVerb::GET,
-            'permission' => [
-                'module' => BackendController::MODULE_NAME,
-                'type'   => PermissionType::READ,
-                'state'  => null,
-            ],
-        ],
-    ],
-
-    '^.*/legal/terms.*$' => [
-        [
-            'dest'       => '\Modules\Home\Controller\BackendController:viewLegalDocuments',
-            'verb'       => RouteVerb::GET,
-            'permission' => [
-                'module' => BackendController::MODULE_NAME,
-                'type'   => PermissionType::READ,
-                'state'  => null,
-            ],
-        ],
-    ],
-
-    '^.*/legal/imprint.*$' => [
-        [
-            'dest'       => '\Modules\Home\Controller\BackendController:viewLegalDocuments',
-            'verb'       => RouteVerb::GET,
-            'permission' => [
-                'module' => BackendController::MODULE_NAME,
-                'type'   => PermissionType::READ,
-                'state'  => null,
-            ],
-        ],
-    ],
 ];
