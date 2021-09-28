@@ -12,9 +12,5 @@
  */
 declare(strict_types=1);
 
-use Modules\Home\Controller\BackendController;
-use phpOMS\Account\PermissionType;
-use phpOMS\Router\RouteVerb;
-
 return [
 ];
