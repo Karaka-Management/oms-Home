@@ -13,10 +13,10 @@
 declare(strict_types=1);
 
 return ['Navigation' => [
-    'Home'          => 'Heim',
+    'Home'          => 'Casa',
     'Imprint'       => '#VALUE!',
     'Legal'         => '#VALUE!',
-    'Logout'        => 'Ausloggen',
+    'Logout'        => 'Cerrar sesión',
     'PrivacyPolicy' => '#VALUE!',
     'Terms'         => '#VALUE!',
 ]];
