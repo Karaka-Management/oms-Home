@@ -14,9 +14,4 @@ declare(strict_types=1);
 
 return ['Navigation' => [
     'Home'          => 'Hem',
-    'Imprint'       => '#VALUE!',
-    'Legal'         => '#VALUE!',
-    'Logout'        => 'Logga ut',
-    'PrivacyPolicy' => '#VALUE!',
-    'Terms'         => '#VALUE!',
 ]];

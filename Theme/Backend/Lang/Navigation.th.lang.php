@@ -14,9 +14,4 @@ declare(strict_types=1);
 
 return ['Navigation' => [
     'Home'          => 'บ้าน',
-    'Imprint'       => '#VALUE!',
-    'Legal'         => '#VALUE!',
-    'Logout'        => 'ออกจากระบบ',
-    'PrivacyPolicy' => '#VALUE!',
-    'Terms'         => '#VALUE!',
 ]];

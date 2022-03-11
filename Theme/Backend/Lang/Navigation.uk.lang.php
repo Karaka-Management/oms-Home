@@ -14,9 +14,4 @@ declare(strict_types=1);
 
 return ['Navigation' => [
     'Home'          => 'Додому',
-    'Imprint'       => '#VALUE!',
-    'Legal'         => '#VALUE!',
-    'Logout'        => 'Вийти',
-    'PrivacyPolicy' => '#VALUE!',
-    'Terms'         => '#VALUE!',
 ]];
