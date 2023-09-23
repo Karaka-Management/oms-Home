@@ -13,5 +13,6 @@
 declare(strict_types=1);
 
 return ['Navigation' => [
-    'Home'          => '家',
+    'Home'   => '家',
+    'Logout' => '',
 ]];
