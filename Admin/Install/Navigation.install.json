@@ -7,7 +7,7 @@
         "name": "Home",
         "uri": null,
         "target": "self",
-        "icon": "fa fa-home",
+        "icon": "home",
         "order": 10,
         "from": "Home",
         "permission": { "permission": 2, "category": null, "element": null },
@@ -23,7 +23,7 @@
         "uri": "api/logout",
         "target": "self",
         "action": "[{\"key\": 1, \"listener\": \"click\", \"action\": [{\"key\": 1, \"type\": \"event.prevent\"}, {\"key\": 2, \"type\": \"message.request\", \"uri\": \"api/logout\", \"method\": \"POST\", \"request_type\": \"raw\"}, {\"key\": 3, \"type\": \"dom.reload\"}]}]",
-        "icon": "fa fa-power-off",
+        "icon": "power_settings_new",
         "order": 999,
         "from": "Home",
         "permission": {
